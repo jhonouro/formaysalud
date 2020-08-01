@@ -1,0 +1,12 @@
+.form-registro{
+    padding: 50px 200px 20px 200px;
+}
+form{
+    padding: 50px 50px 50px 50px;
+    background-color: #EAEAEA;
+    border: 2px solid #770036;
+    border-radius: 2%;
+}
+.btn-registro{
+    margin-top: 20px;
+}

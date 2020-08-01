@@ -1,0 +1,31 @@
+<div class="container form-registro">
+    <form #clientUpdateForm='ngForm'(ngSubmit)="clientUpdate();">
+        <div class="form-group">
+            <label for="firstName">Nombres</label>
+            <input class="form-control" type="text" id="firstName" name="firstName" #firstName="ngModel" [(ngModel)]="client.firstName">
+
+            <label for="lastName">Apellidos</label>
+            <input class="form-control" type="text" id="lastName" name="lastName" #lastName="ngModel" [(ngModel)]="client.lastName">
+
+            <label for="email">Correo</label>
+            <input class="form-control" type="email" id="email" name="email" #email="ngModel" [(ngModel)]="client.email">
+
+            <label for="phone">Teléfono</label>
+            <input class="form-control" type="tel" id="phone" name="phone" #phone="ngModel" [(ngModel)]="client.phone">
+
+            <label for="identification">Cédula de ciudadania</label>
+            <input class="form-control" type="number" id="identification" name="identification" #identification="ngModel" [(ngModel)]="client.identification">
+
+            <label for="password">Contraseña</label>
+            <input class="form-control" type="text" id="password" name="password" #password="ngModel" [(ngModel)]="client.password">
+
+            <label for="typeUser">Tipo de Plan</label>
+            <select class="form-control" name="typeUser" id="typeUser" #typeUser="ngModel" [(ngModel)]="client.typeUser">
+                <option>Aspirante</option>
+                <option>Worker</option>
+                <option>Fitness</option>
+            </select>
+            <button class="btn btn-registro"> Registrarse </button>
+        </div>
+    </form>
+</div>

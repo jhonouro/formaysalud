@@ -1,0 +1,39 @@
+.pie-pagina{
+    background-color: #4F4F4F;
+    width: 100%;
+
+
+}
+input, textarea{
+    margin-top: 30px;
+    background-color: #4F4F4F;
+    color: #ffffff;
+}
+input:focus, textarea:focus{
+    background-color: #161616;
+    color: #ffffff;
+}
+::placeholder{
+    color: #ffffff;
+}
+button{
+    margin-top: 30px;    
+}
+.redes-footer{
+    text-align: right;
+    padding-top: 20px;
+}
+.redes-footer img{
+    margin-right: 20px;
+}
+.redes-footer :last-of-type img{
+    margin-right: 0px;
+}
+.datos-footer{
+    margin-top: 20px;
+    text-align: right;
+    color: #ffffff;
+}
+hr{
+    background-color: #ffffff;
+}

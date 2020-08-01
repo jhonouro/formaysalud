@@ -1,0 +1,50 @@
+.barra-navegacion{
+    background-color: #ffffff;
+    font-weight: 600;
+    border-bottom: 2px solid #770036;
+    box-shadow: 0 8px 6px -6px rgb(197, 197, 197);
+}
+.logo-nav{
+    width: auto;
+    height: 41px;
+}
+.barra-navegacion a{
+    color: #770036;
+    padding-right: 25px;
+}
+.barra-navegacion button {
+    font-weight: 700;
+    border: 1px solid #770036;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.barra-navegacion button a{
+    padding-right: 0px;
+}
+.barra-navegacion button:hover{
+    background-color: #770036;
+}
+.barra-navegacion button a:hover{
+    color: #ffffff;
+}
+.barra-navegacion .btn-registro a{
+    color: #ffffff;
+}
+.btn-ingresar,.btn-registro{
+    margin-top:12px;
+}
+@media (min-width: 800px ){
+    .barra-navegacion .btn-registro{
+        margin-left: 20px;
+    }
+    .logo-nav{
+        height: 55px;
+    }
+    .btn-ingresar,.btn-registro{
+        margin-top:20px;
+    }
+    .btn-ingresar,.btn-registro{
+        margin-top:0;
+    }
+}

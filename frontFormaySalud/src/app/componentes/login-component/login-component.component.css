@@ -1,0 +1,23 @@
+
+.imagen-login{
+    height: 300px;
+    width: auto;
+}
+.form-registro{    
+    background-color: #EAEAEA;
+    border: 2px solid #770036;
+    border-radius: 20px;
+}
+.form-registro h3{
+    text-align: center;
+    font-weight: 700;
+    color: #770036;
+    margin-top: 20px;
+}
+form{
+    padding: 50px 50px 50px 50px;
+    
+}
+.btn-registro{
+    margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    font-size: 18px;
+}
+.btn-registro{
+    background-color: #770036;
+    font-weight: 700;
+    color: #ffffff!important;
+}
+.btn-registro a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn-registro:hover{
+    background-color: #44001f;
+    color: #ffa8cf;
+}

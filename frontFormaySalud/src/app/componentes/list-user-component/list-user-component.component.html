@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="row">
+        <div class="col md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" routerLink="/register">Crear usuario</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" routerLink ="/logout">Cerrar sesión</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="tabla-clientes">
+        <table class="table">
+            <thead class="">
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Teléfono</th>
+                    <th scope="col">Identificación</th>
+                    <th scope="col">Plan</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let Client of allClient">
+                    <td>{{Client.firstName}}</td>
+                    <td>{{Client.lastName}}</td>
+                    <td>{{Client.email}}</td>
+                    <td>+57{{Client.phone}}</td>
+                    <td>{{Client.identification}}</td>
+                    <td>{{Client.typeUser}}</td>
+                    <td><a class="btn btn-registro" routerLink ="/update/{{Client._id}}">Editar</a></td>
+                    <td><a class="btn btn-registro" routerLink ="/delete/{{Client._id}}">Eliminar</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

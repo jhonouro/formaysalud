@@ -1,0 +1,45 @@
+
+.seccion-intro .texto-intro {
+    text-align: justify;
+    padding: 0 20px;
+}
+.seccion-intro .imagen-intro{
+    height: 250px;
+    width: auto;
+}
+.seccion-intro h2{
+    color: #770036;
+    font-weight: 500;
+    text-align: center;
+}
+.seccion-intro h2 span{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.troquel-home{
+    width: 100%;
+    height: auto;
+    margin-top: -7.5rem;
+    padding: 0;
+    display: none;
+
+}
+@media (min-width: 800px){
+    .seccion-intro{
+        margin-top: -8rem;
+    }
+    .seccion-intro .imagen-intro{
+        height: auto;
+    }
+    .seccion-intro h2{
+       text-align: left;
+    }
+    .seccion-intro .texto-intro {
+        text-align: justify;
+        padding: 0px;
+    }
+    .troquel-home{
+        display: inline;
+    }
+ }
