@@ -42,4 +42,10 @@
     .troquel-home{
         display: inline;
     }
+    .troquel-home img{
+        max-width: 100%;
+    }
+    .seccion-intro .imagen-intro{
+        width: 650px;
+    }
  }
