@@ -47,7 +47,7 @@ export class ListUserComponentComponent implements OnInit {
     this.service.removeClient(this.id).subscribe ( (res : any) => {
       if(res.statusCode == 200){
         alert(res.message);
-        this.router.navigate(['/login']);
+        this.router.navigate(['/list']);
       }else{
         alert(res.message);
       }
